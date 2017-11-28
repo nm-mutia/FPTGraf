@@ -2962,3 +2962,16 @@
 1446667740 source:d:\codeblocks\fptgraf\basiceventhandling\resource.rc
 	"wx/msw/wx.rc"
 
+1511845116 source:e:\git\fptgraf\basiceventhandling\main.cpp
+	"wx\wx.h"
+	"MyFrame.h"
+
+1511845116 e:\git\fptgraf\basiceventhandling\myframe.h
+	"wx/wx.h"
+
+1511845116 source:e:\git\fptgraf\basiceventhandling\myframe.cpp
+	"MyFrame.h"
+
+1511845116 source:e:\git\fptgraf\basiceventhandling\resource.rc
+	"wx/msw/wx.rc"
+
