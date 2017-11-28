@@ -1,10 +1,7 @@
 # depslib dependency file v1.0
-1511713271 source:e:\codeblocks\imageviewer\imageframe.cpp
-	"ImageFrame.h"
-	"ImageWindow.h"
-
-1511713255 e:\codeblocks\imageviewer\imageframe.h
+1511841928 source:d:\codeblocks\basiceventhandling\main.cpp
 	"wx\wx.h"
+	"MyFrame.h"
 
 1493449238 c:\wxwidgets-3.0.3\include\wx\wx.h
 	"wx/defs.h"
@@ -2926,14 +2923,13 @@
 1493449238 c:\wxwidgets-3.0.3\include\wx\cocoa\mdi.h
 	"wx/frame.h"
 
-1511713299 e:\codeblocks\imageviewer\imagewindow.h
-	"wx\wx.h"
+1511841864 d:\codeblocks\basiceventhandling\myframe.h
+	"wx/wx.h"
 
-1511712914 source:e:\codeblocks\imageviewer\main.cpp
-	"wx\wx.h"
-	"ImageFrame.h"
+1511842117 source:d:\codeblocks\basiceventhandling\myframe.cpp
+	"MyFrame.h"
 
-1446667740 source:e:\codeblocks\imageviewer\resource.rc
+1446667740 source:d:\codeblocks\basiceventhandling\resource.rc
 	"wx/msw/wx.rc"
 
 1493449238 c:\wxwidgets-3.0.3\include\wx\msw\wx.rc
@@ -2953,48 +2949,16 @@
 
 1493449238 c:\wxwidgets-3.0.3\include\wx\msw\rcdefs.h
 
-1511832290 source:e:\codeblocks\imageviewer\imagewindow.cpp
-	"ImageWindow.h"
-	<wx/stdpaths.h>
-	<wx/filename.h>
-
-1493449238 c:\wxwidgets-3.0.3\include\wx\stdpaths.h
-	"wx/defs.h"
-	"wx/string.h"
-	"wx/filefn.h"
-	"wx/msw/stdpaths.h"
-	"wx/osx/core/stdpaths.h"
-	"wx/os2/stdpaths.h"
-	"wx/unix/stdpaths.h"
-
-1493449238 c:\wxwidgets-3.0.3\include\wx\msw\stdpaths.h
-
-1493449238 c:\wxwidgets-3.0.3\include\wx\osx\core\stdpaths.h
-	"wx/unix/stdpaths.h"
-
-1493449238 c:\wxwidgets-3.0.3\include\wx\unix\stdpaths.h
-
-1493449238 c:\wxwidgets-3.0.3\include\wx\os2\stdpaths.h
-
-1511838711 source:d:\codeblocks\fptgraf\imageviewer\imageframe.cpp
-	"ImageFrame.h"
-	"ImageWindow.h"
-
-1511838711 d:\codeblocks\fptgraf\imageviewer\imageframe.h
+1511841928 source:d:\codeblocks\fptgraf\basiceventhandling\main.cpp
 	"wx\wx.h"
+	"MyFrame.h"
 
-1511838711 d:\codeblocks\fptgraf\imageviewer\imagewindow.h
-	"wx\wx.h"
+1511841864 d:\codeblocks\fptgraf\basiceventhandling\myframe.h
+	"wx/wx.h"
 
-1511838711 source:d:\codeblocks\fptgraf\imageviewer\main.cpp
-	"wx\wx.h"
-	"ImageFrame.h"
+1511842931 source:d:\codeblocks\fptgraf\basiceventhandling\myframe.cpp
+	"MyFrame.h"
 
-1511838711 source:d:\codeblocks\fptgraf\imageviewer\resource.rc
+1446667740 source:d:\codeblocks\fptgraf\basiceventhandling\resource.rc
 	"wx/msw/wx.rc"
-
-1511842906 source:d:\codeblocks\fptgraf\imageviewer\imagewindow.cpp
-	"ImageWindow.h"
-	<wx/stdpaths.h>
-	<wx/filename.h>
 

@@ -29,14 +29,14 @@ void ImageWindow::LoadPotatoBitmap()
     wxStandardPaths &stdPaths = wxStandardPaths::Get();
     wxString fileLocation = stdPaths.GetExecutablePath();
     fileLocation = wxFileName(fileLocation).GetPath() +
-    wxT("\\hehe.jpg");
+    wxT("\\bg-crop.jpg");
     wxMessageOutputDebug().Printf("Relative path of image is at %s",
                                     fileLocation);
     wxImage image(fileLocation, wxBITMAP_TYPE_JPEG);
     //jika menggunakan absolute path
     //sesuaikan path dimana lokasi file potato.jpg berada
-    //wxImage image(wxT("c:\\Users\\mutia\\Desktop\\hehe2.jpg"),
-//                      wxBITMAP_TYPE_JPEG);
+    //wxImage image(wxT("c:\\Users\\ASUS CORNER\\Pictures\\bg-crop.jpg"),
+    //                  wxBITMAP_TYPE_JPEG);
     potatoBitmap = new wxBitmap(image);
 }
 void ImageWindow::OnPaint(wxPaintEvent &event)
@@ -44,6 +44,6 @@ void ImageWindow::OnPaint(wxPaintEvent &event)
     wxPaintDC pdc(this);
     if (potatoBitmap != nullptr)
     {
-        pdc.DrawBitmap(*potatoBitmap, wxPoint(150, 10), true);
+        pdc.DrawBitmap(*potatoBitmap, wxPoint(220, 10), true);
     }
 }
